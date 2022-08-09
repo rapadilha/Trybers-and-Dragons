@@ -10,14 +10,6 @@ export default class Dwarf extends Race {
     Dwarf.instance += 1;
   }
 
-  get name(): string {
-    return this.name;
-  }
-
-  get dexterity(): number {
-    return this.dexterity;
-  }
-
   get maxLifePoints(): number {
     return this._maxLifePoints;
   }

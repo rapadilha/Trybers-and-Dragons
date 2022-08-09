@@ -10,14 +10,6 @@ export default class Halfling extends Race {
     Halfling.instance += 1;
   }
 
-  get name(): string {
-    return this.name;
-  }
-
-  get dexterity(): number {
-    return this.dexterity;
-  }
-
   get maxLifePoints(): number {
     return this._maxLifePoints;
   }
